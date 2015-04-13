@@ -8,12 +8,12 @@ padding: 0;
 			
 @font-face {
 font-family: myFirstFont;
-src: url(C:/Users/Drusha/Documents/GitHub/drushakorzh.github.io/Fonts/AktivGroteskCorp-Light.ttf);
+src: url(../fonts/AktivGroteskCorp-Light.ttf);
 }
 
 @font-face {
 font-family: mySecondFont;
-src: url(C:/Users/Drusha/Documents/GitHub/drushakorzh.github.io/Fonts/AktivGroteskCorp-Regular.ttf);
+src: url(../fonts/AktivGroteskCorp-Regular.ttf);
 }
 
 div {
@@ -37,7 +37,7 @@ transform: translateX(0);
 -webkit-transition: .3s ease all;
 transition: .3s ease all;
 background-color: #FFFFFF;
-background: url(C:/Users/Drusha/Documents/GitHub/drushakorzh.github.io/Images/bg.jpg) no-repeat center center fixed;
+background: url(../images/bg.jpg) no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -112,7 +112,7 @@ font-size: 110%;
 -webkit-transform: translateX(20%);
 transform: translateX(20%);
 background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),
-url('C:/Users/Drusha/Documents/GitHub/drushakorzh.github.io/Images/bg.jpg') no-repeat center center fixed;
+url('../images/bg.jpg') no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
