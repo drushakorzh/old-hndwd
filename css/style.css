@@ -42,16 +42,14 @@ background: url(../images/bg.jpg) no-repeat center center fixed;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-
 }
 
 .menu {
 background-color: #F8F8F8;
 width: 20%;
 height: 100%;
-position: absolute;
+position: fixed;
 left: -20%;
-overflow-y: auto;
 z-index: 10;
 }
 		
@@ -121,12 +119,9 @@ background-position: center;
 }
 
 #lines {
-display: block;
-margin-left: 2%;
-margin-top: 2%;
-position: absolute;
-top: 0;
-left: 0;
+position: fixed;
+top: 4%;
+left: 2%;
 color: #F8F8F8;
 -o-transition: color .2s ease-out;
 -ms-transition: color .2s ease-out;
