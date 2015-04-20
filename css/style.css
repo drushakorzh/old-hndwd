@@ -106,17 +106,10 @@ font-size: 110%;
 -webkit-transform: translateX(20%);
 transform: translateX(20%);
 background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-background-position: center;
 }
 
-*/ Parallax  base styles
-
 .parallax {
-perspective: 1px;
+perspective: 10px;
 height: 100vh;
 overflow-x: hidden;
 overflow-y: auto;
@@ -137,21 +130,22 @@ left: 0;
 }
 
 .parallax_layer-base {
+-webkit-transform: translateZ(0);
 transform: translateZ(0);
+z-index: 4;
 }
-
 .parallax_layer-back {
-transform: translateZ(-5px) scale(1);
+-webkit-transform: translateZ(-10px) scale(2.5);
+transform: translateZ(-10px) scale(2.5);
+z-index: 3;
 }
-
-*/ Parallax group styles 
 
 #group1 {
 z-index: 5;
 }
 
 #group1 .parallax_layer-base {
-background-color: white;
+background-color: #E0E0E0;
 }
 
 #group2 {
@@ -159,7 +153,12 @@ z-index: 3;
 }
 
 #group2 .parallax_layer-back {
-background-color: blue;
+background-image: url(../images/bg.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-position: center;
 }
 
 
