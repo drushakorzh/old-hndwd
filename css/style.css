@@ -121,14 +121,14 @@ font-size: 110%;
 .wrapper.show-nav .canvas {
 -webkit-transform: translateX(20%);
 transform: translateX(20%);
-background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+/* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
 }
 
 .about {
 font-family: Montserrat;
-font-size: 180%;
+font-size: 250%;
 position: relative;
-top: 35%;
+top: 40%;
 text-align: center;
 }
 
@@ -147,13 +147,13 @@ transform-style: preserve-3d;
 
 .parallax_group-2 {
 position: relative;
-height: 15vh;
+height: 30vh;
 transform-style: preserve-3d;
 }
 
 .parallax_group-3 {
 position: relative;
-height: auto;
+height: 70vh;
 transform-style: preserve-3d;
 }
 
@@ -230,8 +230,8 @@ transform: translate(-50%, -50%);
 }
 
 .storepics {
-height: 33%;
-width: 33.117%;
+height: 70vh;
+width: 32.7vw;
 margin-right: 0;
 margin-left: 0;
 padding-right: 0;
