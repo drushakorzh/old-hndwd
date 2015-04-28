@@ -1,6 +1,11 @@
 $(function() {
-  $('.toggle-nav').click(function() {
-    // Calling a function in case you want to expand upon this.
+  $('.toggle-nav').click(function(event) {
+	  event.stopPropagation();
     $(".wrapper").toggleClass('show-nav');
   });
+  $('.canvas').click(function() {
+	if($(".wrapper").hasClass('show-nav')) {
+		$(".wrapper").toggleClass('hide-nav');  
+	}
+  })
 });

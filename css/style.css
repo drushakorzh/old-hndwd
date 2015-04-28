@@ -124,6 +124,11 @@ transform: translateX(20%);
 /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
 }
 
+.wrapper.hide-nav .canvas {
+-webkit-transform: translateX(0);
+transform: translateX(0);
+}
+
 .about {
 font-family: Montserrat;
 font-size: 250%;
@@ -232,11 +237,8 @@ transform: translate(-50%, -50%);
 .storepics {
 height: 70vh;
 width: 32.7vw;
-margin-right: 0;
-margin-left: 0;
-padding-right: 0;
-padding-left: 0;
-}
+margin: 0;
+padding: 0}
 
 hr {
 border: 0;
